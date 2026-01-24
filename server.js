@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 
 
 
-app.get('/CaelusMasterServer/GamePage.json', (req, res) => {
+app.get('/CaelusApp/GamePage.json', (req, res) => {
     const filePath = path.join(__dirname, 'GamePage.json');
     
     if (!fs.existsSync(filePath)) {
@@ -34,7 +34,7 @@ app.get('/CaelusMasterServer/GamePage.json', (req, res) => {
 });
 
 
-app.get('/CaelusMasterServer/games/:gameId.json', (req, res) => {
+app.get('/CaelusApp/games/:gameId.json', (req, res) => {
     const gameId = req.params.gameId;
     const filePath = path.join(__dirname, 'games', `${gameId}.json`);
 
@@ -48,15 +48,6 @@ app.get('/CaelusMasterServer/games/:gameId.json', (req, res) => {
 });
 
 
-app.get('/CaelusMasterServer/status', (req, res) => {
-    res.json({
-        status: "Online",
-        service: "Caelus Master Server",
-        version: "1.0.2",
-        uptime: process.uptime()
-    });
-});
-
 
 
 app.use((req, res) => {
@@ -68,6 +59,6 @@ app.listen(PORT, () => {
     console.log("========================================");
     console.log("   ");
     console.log(`   Port: ${PORT}`);
-    console.log(`   Status: http://localhost:${PORT}/CaelusMasterServer/status`);
+    console.log(`   Status: http://localhost:${PORT}/CaelusApp/status`);
     console.log("========================================");
 });
