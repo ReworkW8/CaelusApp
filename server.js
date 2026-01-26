@@ -1,4 +1,3 @@
-// LIVEDATA_START: By continuing to use caelus, you agree that meow mrrp meow :33 mrowmeowmrwormrow :333. :LIVEDATA_END
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -21,6 +20,7 @@ app.use((req, res, next) => {
 
 app.get('https://www.caelus.lol/status', (req, res) => {
     res.send("version1.0=true;tileData=By continuing to use caelus, you agree that meow mrrp meow :33 mrowmeowmrwormrow :333.");
+    // LIVEDATA_START: By continuing to use caelus, you agree that meow mrrp meow :33 mrowmeowmrwormrow :333. :LIVEDATA_END
 });
 
 
