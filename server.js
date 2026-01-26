@@ -1,5 +1,5 @@
 // version1.0=true
-// LIVEDATA_START: Test :LIVEDATA_END
+// LIVEDATA_START: Test! :LIVEDATA_END
 
 const express = require('express');
 const fs = require('fs');
@@ -21,13 +21,13 @@ app.use((req, res, next) => {
 
 
 
-app.get('/CaelusApp/status', (req, res) => {
+app.get('https://www.caelus.lol/status', (req, res) => {
     res.send("version1.0=true;tileData=Test");
 });
 
 
-app.get('/CaelusApp/GamePage.json', (req, res) => {
-    const filePath = path.join(__dirname, 'GamePage.json');
+app.get('https://www.caelus.lol/', (req, res) => {
+    const filePath = path.join(__dirname, 'games');
     
     if (!fs.existsSync(filePath)) {
         return res.status(404).json({ error: "D" });
@@ -41,7 +41,7 @@ app.get('/CaelusApp/GamePage.json', (req, res) => {
 });
 
 
-app.get('/CaelusApp/games/:gameId.json', (req, res) => {
+app.get('https://www.caelus.lol/games/:gameId.json', (req, res) => {
     const gameId = req.params.gameId;
     const filePath = path.join(__dirname, 'games', `${gameId}.json`);
 
@@ -66,6 +66,6 @@ app.listen(PORT, () => {
     console.log("========================================");
     console.log("   ");
     console.log(`   Port: ${PORT}`);
-    console.log(`   Status: http://localhost:${PORT}/CaelusApp/status`);
+    console.log(`   Status: http://localhost:${PORT}/https://www.caelus.lol/status`);
     console.log("========================================");
 });
