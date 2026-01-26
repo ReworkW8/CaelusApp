@@ -1,6 +1,3 @@
-// version1.0=true
-// LIVEDATA_START: By continuing to use caelus, you agree that meow mrrp meow :33 mrowmeowmrwormrow :333. :LIVEDATA_END
-
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
