@@ -1,4 +1,4 @@
-// version1.0=true
+// version1.0=false
 // LIVEDATA_START: Test! :LIVEDATA_END
 
 const express = require('express');
@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 
 
 app.get('https://www.caelus.lol/status', (req, res) => {
-    res.send("version1.0=true;tileData=Test!");
+    res.send("version1.0=false;tileData=Test!");
 });
 
 
