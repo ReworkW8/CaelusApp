@@ -40,7 +40,7 @@ app.get('/CaelusApp/games/:gameId.json', (req, res) => {
 
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
-            return res.status(404).json({ error: `Spiel ${gameId} ` });
+            return res.status(404).json({ error: `game ${gameId} ` });
         }
         res.setHeader('Content-Type', 'application/json');
         res.send(data);
