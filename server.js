@@ -1,3 +1,6 @@
+// version1.0=true
+// LIVEDATA_START: Test :LIVEDATA_END
+
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -16,7 +19,13 @@ app.use((req, res, next) => {
     next();
 });
 
-
+/**
+ * Status-Endpunkt für die App-Kompatibilität
+ * Liefert die Version und Daten für das Live Tile
+ */
+app.get('/CaelusApp/status', (req, res) => {
+    res.send("version1.0=true;tileData=Test");
+});
 
 
 app.get('/CaelusApp/GamePage.json', (req, res) => {
