@@ -2,17 +2,17 @@
   "games": [
     {
       "id": 1,
-      "name": "Crossroads",
+      "name": "Caelus's Playground",
       "thumbnail": "https://reworkw8.github.io/CaelusApp/assets/crossroads.png",
       "image": "https://reworkw8.github.io/CaelusApp/assets/crossroads.png",
-      "description": "A classic battleground where legends are made."
+      "description": "Caelus's Playground Includes a boombox for everyone, play your music for free while you hang out with your friends ! Gamble your virtual Money with chances of doubling it and becoming the richest. ** ABUSING ADMIN WILL RESULT IN BAN ** https://www.caelus.lol/catalog/2594/VIP - Buy this T-shirt for VIP https://https://www.caelus.lol/catalog/15548/Mod - Buy this T-shirt for MOD Commands : /e caramel !sit !re !r6 !r15 More soon."
     },
     {
       "id": 2,
-      "name": "Sword Fight on the Heights",
+      "name": "Tower Of Hell",
       "thumbnail": "https://reworkw8.github.io/CaelusApp/assets/swordfight.png",
       "image": "https://reworkw8.github.io/CaelusApp/assets/swordfight.png",
-      "description": "Test your skills in high-altitude sword combat."
+      "description": "Can you be the first to the top in this randomly generated obby with absolutely no checkpoints at all?"
     },
     {
       "id": 3,
