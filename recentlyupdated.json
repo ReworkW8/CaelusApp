@@ -1,0 +1,60 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "Crossroads",
+      "thumbnail": "https://reworkw8.github.io/CaelusApp/assets/crossroads.png",
+      "image": "https://reworkw8.github.io/CaelusApp/assets/crossroads.png",
+      "description": "A classic battleground where legends are made."
+    },
+    {
+      "id": 2,
+      "name": "Sword Fight on the Heights",
+      "thumbnail": "https://reworkw8.github.io/CaelusApp/assets/swordfight.png",
+      "image": "https://reworkw8.github.io/CaelusApp/assets/swordfight.png",
+      "description": "Test your skills in high-altitude sword combat."
+    },
+    {
+      "id": 3,
+      "name": "Natural Disaster Survival",
+      "thumbnail": "https://reworkw8.github.io/CaelusApp/assets/disaster.png",
+      "image": "https://reworkw8.github.io/CaelusApp/assets/disaster.png",
+      "description": "Can you survive the forces of nature?"
+    },
+    {
+      "id": 4,
+      "name": "Work at a Pizza Place",
+      "thumbnail": "https://reworkw8.github.io/CaelusApp/assets/pizza.png",
+      "image": "https://reworkw8.github.io/CaelusApp/assets/pizza.png",
+      "description": "Fulfill orders and manage the best pizzeria in town."
+    },
+    {
+      "id": 5,
+      "name": "Doomspire Brickbattle",
+      "thumbnail": "https://reworkw8.github.io/CaelusApp/assets/doomspire.png",
+      "image": "https://reworkw8.github.io/CaelusApp/assets/doomspire.png",
+      "description": "Destroy the enemy towers before they destroy yours!"
+    },
+    {
+      "id": 6,
+      "name": "Base Wars",
+      "thumbnail": "https://reworkw8.github.io/CaelusApp/assets/basewars.png",
+      "image": "https://reworkw8.github.io/CaelusApp/assets/basewars.png",
+      "description": "Engage in massive team-based tactical combat."
+    },
+    {
+      "id": 7,
+      "name": "Obby for Robux",
+      "thumbnail": "https://reworkw8.github.io/CaelusApp/assets/obby.png",
+      "image": "https://reworkw8.github.io/CaelusApp/assets/obby.png",
+      "description": "Challenge your parkour skills in this obstacle course."
+    },
+    {
+      "id": 8,
+      "name": "Catalog Heaven",
+      "thumbnail": "https://reworkw8.github.io/CaelusApp/assets/catalog.png",
+      "image": "https://reworkw8.github.io/CaelusApp/assets/catalog.png",
+      "description": "Try out any item from the catalog for free!"
+    }
+  ]
+}
