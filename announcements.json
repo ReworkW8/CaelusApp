@@ -1,0 +1,24 @@
+{
+  "announcements": [
+    {
+      "id": 101,
+      "name": "🎉 New Update Coming Soon!",
+      "description": "A big update is on the way! Stay tuned for new features, games and improvements to the Caelus platform."
+    },
+    {
+      "id": 102,
+      "name": "🛠️ Maintenance Notice",
+      "description": "Scheduled maintenance will take place this weekend. Some services may be temporarily unavailable. We apologize for any inconvenience."
+    },
+    {
+      "id": 103,
+      "name": "🏆 Event: Weekend Tournament",
+      "description": "Join our weekend tournament for a chance to win exclusive prizes! Open to all players. Sign up now before spots run out."
+    },
+    {
+      "id": 104,
+      "name": "📢 Welcome to Caelus v2!",
+      "description": "Caelus has been updated to version 2! Enjoy the new UI, faster loading times and improved game discovery. Thank you for your continued support."
+    }
+  ]
+}
