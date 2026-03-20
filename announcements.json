@@ -1,24 +1,9 @@
 {
   "announcements": [
     {
-      "id": 101,
-      "name": "🎉 New Update Coming Soon!",
-      "description": "A big update is on the way! Stay tuned for new features, games and improvements to the Caelus platform."
-    },
-    {
-      "id": 102,
-      "name": "🛠️ Maintenance Notice",
-      "description": "Scheduled maintenance will take place this weekend. Some services may be temporarily unavailable. We apologize for any inconvenience."
-    },
-    {
-      "id": 103,
-      "name": "🏆 Event: Weekend Tournament",
-      "description": "Join our weekend tournament for a chance to win exclusive prizes! Open to all players. Sign up now before spots run out."
-    },
-    {
-      "id": 104,
-      "name": "📢 Welcome to Caelus v2!",
-      "description": "Caelus has been updated to version 2! Enjoy the new UI, faster loading times and improved game discovery. Thank you for your continued support."
+      "id": 001,
+      "name": "🎉 Were getting so close to 5K!",
+      "description": "As of today, Caelus is at 4K on-site players! Well, we're so close to getting to 5K, which I never thought we're even gonna get to 1K at some point. Thank you @nzjhsiaahajajakwoausuisisishdh for all the support you've been giving us lately. Without you Caelus wouldn't be at such a high number and without your constant help we wouldn't even get emotes on the platform, same with all the ugc's you keep providing for the on site's Catalog. And thank you @boma for the help you provide when I myself couldn't. And to everybody, thanks for staying on caelus as a good community <3"
     }
   ]
 }
