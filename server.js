@@ -64,6 +64,6 @@ app.listen(PORT, () => {
     console.log("========================================");
     console.log("   ");
     console.log(`   Port: ${PORT}`);
-    console.log(`   Status: http://localhost:${PORT}/https://www.caelus.lol/status`);
+    console.log(`   Status: https://www.caelus.lol:${PORT}/https://www.caelus.lol/status`);
     console.log("========================================");
 });
